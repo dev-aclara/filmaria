@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+  }
+  
+  .lista-filmes{
+    margin:15px;
+  }
+  
+  .lista-filmes article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;;
+  }
+  
+  .lista-filmes strong{
+    padding-bottom: 15px;
+    font-size: 22px;
+  }
+  
+  .lista-filmes img{
+    width: 800px;
+    max-height: 350px;
+  }
+  
+  .lista-filmes article a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    background: linear-gradient(90deg, rgba(10,22,92,1) 0%, rgba(37,19,81,1) 100%);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .lista-filmes article strong{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+  }
+
+  .lista-filmes img {
+    transition: .5s ease;
+    }
+    
+    .lista-filmes img:hover{
+    box-shadow:
+    1px 1px #A48BE4,
+    2px 2px #A48BE4,
+    3px 3px #A48BE4,
+    4px 4px #A48BE4,
+    5px 5px #A48BE4,
+    6px 6px #A48BE4;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    }
